@@ -2,24 +2,29 @@ import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
-    <nav id="navbar">
-      <ul>
-        <li>
+    <nav class="navbar">
+      <div class="flex-item">
+        <h3>
           <Link className="App-link" to="/">
             Home
           </Link>
-        </li>
-        <li>
+        </h3>
+      </div>
+      <div class="flex-item">
+        <h3>
           <Link className="App-link" to="/about">
             About
           </Link>
-        </li>
-        <li>
+        </h3>
+      </div>
+      <div class="flex-item">
+        <h3>
           <Link className="App-link" to="/services">
             Services
           </Link>
-        </li>
-      </ul>
+        </h3>
+
+      </div>
     </nav>
   );
 }

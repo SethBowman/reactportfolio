@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 .App-header {
@@ -15,19 +16,42 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;  
  
 }
 
 .App-link {
-  color:lightblue;
+  color: black;
 }
 
-#navbar {
+.navbar {
   font-size: large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0094c8;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 500px;  
 }
 
 .home {
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome {
+  background-color: #0094c8;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.alt-link {
+  color: #0094c8;
+}
+
+.flex-item {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 }

@@ -5,7 +5,7 @@ function Services(props) {
       <div>
         <p>Click the icon to visit my github!</p>
         <a
-          className="App-link"
+          className="alt-link"
           href="https://www.github.com/SethBowman"
           target="_blank"
           rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Services(props) {
       <div>
         <p>Click the icon to visit my LinkedIn!</p>
         <a
-          className="App-link"
+          className="alt-link"
           href="https://www.linkedin.com/in/seth-bowman-358863211/"
           target="_blank"
           rel="noopener noreferrer"
